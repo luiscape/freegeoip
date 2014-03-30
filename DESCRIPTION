@@ -1,0 +1,17 @@
+Package: freegeoip
+Title: Geocodes IP addresses in a data.frame using the free freegeoip.net
+    service.
+Version: 0.1.0
+Author: Luis Capelo
+Maintainer: Luis Capelo <capelo@un.org>
+Description: freegeoip geocodes IP addresses using the free service
+    freegeoip.net. The function works by sending the entires in a data.frame to
+    freegeip.net as single query and then storing the results into a
+    data.frame. freegeoip also has an error handling function that stores
+    errors as NA values in the data.frame.
+Depends:
+    R (>= 3.0.2),
+    rjson,
+    RCurl
+License: GPL-2 | GPL-3
+LazyData: true
