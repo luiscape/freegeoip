@@ -32,4 +32,9 @@ system) are encoded as NAs. The output is a data.frame.
 # x <- data.frame('72.225.192.110')
 # y <- freegeoip(x)
 }
+\keyword{address}
+\keyword{geocode}
+\keyword{gis}
+\keyword{ip}
+\keyword{mapping}
 

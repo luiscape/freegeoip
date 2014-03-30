@@ -23,13 +23,14 @@
 #' @param df data.frame (with a single column) with IP addresses. This is the column that will be
 #' geocoded.
 #' 
+#' @keywords gis geocode mapping ip address
+#' 
+#' @export
+#' 
 #' @examples
 #' # Geocoding a single IP address
 #' # x <- data.frame('72.225.192.110')
 #' # y <- freegeoip(x)
-#' 
-#' @export
-
  
 freegeoip <- function(df = NULL) { 
 
