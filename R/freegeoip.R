@@ -27,6 +27,8 @@
 #' # Geocoding a single IP address
 #' # x <- data.frame('72.225.192.110')
 #' # y <- freegeoip(x)
+#' 
+#' @export
 
  
 freegeoip <- function(df = NULL) { 
