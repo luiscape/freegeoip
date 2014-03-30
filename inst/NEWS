@@ -1,0 +1,4 @@
+freegeoip 0.1.1
+===============
+
+* added small fix to make the function `freegeoip` usable by the user without having to load it independently.
