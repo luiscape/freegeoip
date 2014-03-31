@@ -10,7 +10,7 @@ You will need the `devtools` package to install the `freegeoip` package.
 
 ```r 
   install.packages('devtools')
-  library('devtools')
+  library(devtools)
   install_github('freegeoip', 'luiscape')
 ```
 
