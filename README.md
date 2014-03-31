@@ -14,9 +14,13 @@ x <- data.frame('34.23.143.243')
 
 freegeoip(x) 
 
+```
+
+This is the `data.frame` in the output: 
+
+```r 
              ip country_code  country_name region_code region_name    city zipcode latitude longitude metro_code area_code
 1 34.23.143.243           US United States          TX       Texas Houston   77072  29.6997  -95.5858        618       281
-
 ```
 
 
