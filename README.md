@@ -33,9 +33,9 @@ This is the `data.frame` in the output:
 1 34.23.143.243           US United States          TX       Texas Houston   77072  29.6997  -95.5858        618       281
 ```
 
+The results are neatly geocoded:
 
-https://raw.githubusercontent.com/luiscape/freegeoip/master/map.png
-
+![Map of geocoded addresses](https://raw.githubusercontent.com/luiscape/freegeoip/master/map.png)
 
 
 Known Issues
