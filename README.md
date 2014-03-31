@@ -34,6 +34,10 @@ This is the `data.frame` in the output:
 ```
 
 
+https://raw.githubusercontent.com/luiscape/freegeoip/master/map.png
+
+
+
 Known Issues
 ------------
 
