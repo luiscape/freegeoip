@@ -45,3 +45,9 @@ This package was written when trying to geocode IP addresses from MailChimp. Mai
 
 With that said, the package is really slow. It sends a single IP address at a time. As a result, if you have a large list of IP addresses, you end up making many -- *many* -- queries. I did it this way in order to properly catch errors -- I was geocoding a very international IP address list with lots of errors. Errors are catched and properly categorized as `NA`s.
 
+
+TODO
+----
+
+- Allow bulk query of IP addresses using lists. 
+- Create a simple mapping function using rMaps. 
